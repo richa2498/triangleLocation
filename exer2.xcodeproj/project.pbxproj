@@ -15,6 +15,7 @@
 		9B740AEE23C93B44005F58A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B740AEC23C93B44005F58A1 /* LaunchScreen.storyboard */; };
 		9B740AF923C93B44005F58A1 /* exer2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B740AF823C93B44005F58A1 /* exer2Tests.swift */; };
 		9B740B0423C93B44005F58A1 /* exer2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B740B0323C93B44005F58A1 /* exer2UITests.swift */; };
+		9B740B1223C93B74005F58A1 /* cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B740B1123C93B74005F58A1 /* cities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9B740AFF23C93B44005F58A1 /* exer2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exer2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B740B0323C93B44005F58A1 /* exer2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exer2UITests.swift; sourceTree = "<group>"; };
 		9B740B0523C93B44005F58A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B740B1123C93B74005F58A1 /* cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				9B740AE123C93B42005F58A1 /* AppDelegate.swift */,
 				9B740AE323C93B42005F58A1 /* SceneDelegate.swift */,
-				9B740AE523C93B42005F58A1 /* ViewController.swift */,
 				9B740AE723C93B42005F58A1 /* Main.storyboard */,
+				9B740AE523C93B42005F58A1 /* ViewController.swift */,
 				9B740AEA23C93B44005F58A1 /* Assets.xcassets */,
 				9B740AEC23C93B44005F58A1 /* LaunchScreen.storyboard */,
 				9B740AEF23C93B44005F58A1 /* Info.plist */,
+				9B740B1123C93B74005F58A1 /* cities.swift */,
 			);
 			path = exer2;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B740B1223C93B74005F58A1 /* cities.swift in Sources */,
 				9B740AE623C93B42005F58A1 /* ViewController.swift in Sources */,
 				9B740AE223C93B42005F58A1 /* AppDelegate.swift in Sources */,
 				9B740AE423C93B42005F58A1 /* SceneDelegate.swift in Sources */,
